@@ -54,6 +54,7 @@ def main():
         
         event, values = window.read(timeout=20)
         if event == 'Keluar' or event == sg.WIN_CLOSED:
+            exit()
             return
 
         elif event == 'Mulai':
